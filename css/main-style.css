@@ -227,11 +227,24 @@ h5{
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
 }
+.logo a img{
+	width: 20%;
+	height: auto;
+	margin-top: 3%;
+}
+.header.fixedHeader .logo a img{
+	width: 15%;
+	margin-top: 1%;
+}
 .header.fixedHeader + .offset {display: block;}
 
 /* --- logo --------------------- */
 
 .logo a{color:#fff;}
+.logo a span{
+	color: #fff;
+	display: relative;
+}
 .navbar-brand{
 	font-size:26px;
 	line-height:32px;
@@ -1221,34 +1234,6 @@ span.hoverBox .linKed{
 	18. Home2 Section End
 ------------------------------------------------------*/
 
-#services3{position:relative;top: -200px;z-index: 999;}
-.ftprallax-bg3{background:url(../images/background/ftpralax-bg.jpg) no-repeat fixed;background-size: cover;background-attachment:fixed;}
-.nsprallax-bg3{background:url(../images/background/nsprallax-bg.jpg) no-repeat fixed;background-size: cover;}
-#latestpost3{padding-top:93px;padding-bottom:32px;}
-.latestpost-three .heading h2{color:#7e8082;font-size:30px;line-height:42px;margin-top:2px;}
-.ndtmfeat3 .heading h3{line-height:33px;padding-bottom: 3px;}
-.ndtmfeat3 .ndheight{height:25px;}
-#latestpost3 .owl-theme .owl-controls{
-	text-align:start;
-	position: absolute;
-	left: -33%;
-	top: 37%;
-}
-#owl-latest-post-home3 .owl-prev{
-	background: url(../images/arrow-left3.png)0;
-	background-repeat: no-repeat;
-	height: 40px;
-	color: transparent;
-	padding: 0px!important;
-}
-#owl-latest-post-home3 .owl-next{
-	background: url(../images/arrow-right3.png)0;
-	background-repeat: no-repeat;
-	height: 40px;
-	background-size: 23px;
-	padding: 0px!important;
-	color: transparent;
-}
 ul.portfolioContainer3 {
 	display: block;
 	padding: 0px;
@@ -4004,7 +3989,7 @@ input[type="submit"]:hover > i{
 	text-align:center;
 }
 .preload-logo{
-	font-size:30px;
+	font-size:20px;
 	font-family: 'oswaldlight';
 	font-weight:700;
 	color:#000000;
@@ -4012,6 +3997,7 @@ input[type="submit"]:hover > i{
 .back-logo {
     z-index:-1;
 	color: #e02828;
+	margin-right: 500px;
 	position: absolute;
  	top:40%;
 	left:45%;
