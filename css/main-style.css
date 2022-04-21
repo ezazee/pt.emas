@@ -291,7 +291,7 @@ h5{
 .mainNav .navTabs > li .menuArrow {
   display: inline-block;
   line-height: 33px;
-  float: right;
+  float:right;
 }
 .mainNav .navTabs > li .dropDown {
 	position: absolute;
@@ -1235,14 +1235,14 @@ span.hoverBox .linKed{
 	top: 37%;
 }
 #owl-latest-post-home3 .owl-prev{
-	background: url(../images/arrow-left3.png)0;
+	background: url(../images/arrow-left3.png);
 	background-repeat: no-repeat;
 	height: 40px;
 	color: transparent;
 	padding: 0px!important;
 }
 #owl-latest-post-home3 .owl-next{
-	background: url(../images/arrow-right3.png)0;
+	background: url(../images/arrow-right3.png) 0;
 	background-repeat: no-repeat;
 	height: 40px;
 	background-size: 23px;
@@ -1271,7 +1271,7 @@ ul.portfolioContainer3 li img{width:100%;}
 ul.portfolioContainer3 .col-sm-3{width:100%;}
 .ndrecentwork3 span.hoverBox .smallIcon{left: 66%;}
 .ndprotfolio3{padding:52px 0px;}
-.icon_plusnd{background:url(../images/rsplus-icon.png)no-repeat center;height: 55px;width: 55px;overflow:hidden;}
+.icon_plusnd{background:url(../images/rsplus-icon.png) no-repeat center;height: 55px;width: 55px;overflow:hidden;}
 .feature_ph3{margin-top:10%;right:0px;float:right;position:absolute;}
 .tpmfeature3{margin-bottom:24px;}
 .ndtmfeature3 .feature-right .feature-icon{width: 20%;margin-left: -2px;float: left;text-align: start;}
@@ -1302,7 +1302,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 }
 .ndabreadmr{margin-top: 17px;}
 .abprallax-bg{
-	background:url(../images/background/ab-prallax.jpg)no-repeat fixed;
+	background:url(../images/background/ab-prallax.jpg) no-repeat fixed;
 	background-size:cover;
 	background-attachment:fixed;
 	padding-top: 4px;
@@ -1448,7 +1448,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	top: -33%;
 }
 #owl-testimonials2 .owl-prev {
-	background: url(../images/left-arrow.png)0;
+	background: url(../images/left-arrow.png) 0;
 	background-repeat: no-repeat;
 	height: 40px;
 	color: transparent;
@@ -1457,7 +1457,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	opacity: 1;
 }
 #owl-testimonials2 .owl-next{
-	background: url(../images/right-arrow.png)0;
+	background: url(../images/right-arrow.png) 0;
 	background-repeat: no-repeat;
 	height: 40px;
 	background-size: 22px;
@@ -1705,7 +1705,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 .timeline-panel .heading7 h3{color:#fff;}
 .timeline-panel .heading7 p{color:#fff;}
 .ndftboxtitle h3{font-size:20px;line-height:22px;color:#fff;}
-.ftprallax-bg2{background: url(../images/background/ftpralax-bg2.jpg)no-repeat fixed;background-size: cover;background-attachment:fixed;}
+.ftprallax-bg2{background: url(../images/background/ftpralax-bg2.jpg) no-repeat fixed;background-size: cover;background-attachment:fixed;}
 .ndwhline{background:#fff!important;}
 #ndnewslater7{padding:45px 0px;}
 #ndlatestpost7{padding:62px 0px;}
@@ -1864,14 +1864,14 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	top: 69%;
 }
 #owl-ndrecentworks3 .owl-prev{
-	background: url(../images/arrow-left3.png)0;
+	background: url(../images/arrow-left3.png) 0;
 	background-repeat: no-repeat;
 	height: 40px;
 	color: transparent;
 	padding: 0px!important;
 }
 #owl-ndrecentworks3 .owl-next{
-	background: url(../images/arrow-right3.png)0;
+	background: url(../images/arrow-right3.png) 0;
 	background-repeat: no-repeat;
 	height: 40px;
 	background-size: 23px;
@@ -2449,7 +2449,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 .ndtbl-pricingtwo .itemborder-left{border-left:1px solid #b8bcc1;}
 .ndtbl-pricingtwo .itemborder-right{border-right:1px solid #b8bcc1;}
 .ndtbl-pricingtwo .itemPad{padding-right:4.5px;}
-.ndtbl-pricingtwo .item .tbl-header{background-color:#636a71;color:#f6f7f7;padding: padding:15px 12px;}
+.ndtbl-pricingtwo .item .tbl-header{background-color:#636a71;color:#f6f7f7;padding:5px 12px; }
 .ndtbl-pricingtwo  .item .tbl-price{
 	font-family: 'oswaldlight';
 	color:#ffffff;
