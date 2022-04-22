@@ -1234,8 +1234,6 @@ span.hoverBox .linKed{
 	18. Home2 Section End
 ------------------------------------------------------*/
 
-<<<<<<<< HEAD
-=======
 #services3{position:relative;top: -200px;z-index: 999;}
 .ftprallax-bg3{background:url(../images/background/ftpralax-bg.jpg) no-repeat fixed;background-size: cover;background-attachment:fixed;}
 .nsprallax-bg3{background:url(../images/background/nsprallax-bg.jpg) no-repeat fixed;background-size: cover;}
@@ -1264,7 +1262,7 @@ span.hoverBox .linKed{
 	padding: 0px!important;
 	color: transparent;
 }
->>>>>>> e8367063920c1d9c52bbde3c33bfd07f4402ea85
+
 ul.portfolioContainer3 {
 	display: block;
 	padding: 0px;
