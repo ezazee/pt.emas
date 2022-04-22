@@ -1829,16 +1829,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	25. Home9 Page End
 ------------------------------------------------------*/
 #page-title{padding:55px 0px;height:136px;}
-.page-title h1{
-	font-family: 'oswaldlight';
-	font-size:30px;
-	color:#fff;
-	line-height:1;
-	font-weight:lighter;
-	margin:0px;
-	text-transform:uppercase;
-}
-.page-title{float:left;}
+.page-title{float:inline-start;}
 .breadcrumb {
 	margin-bottom: 0;
 	-webkit-border-radius: 0;
