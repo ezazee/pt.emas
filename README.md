@@ -1,3 +1,10 @@
+NOTE :
+Untuk melihat Pages nya silahkan klik link berikut ini :
+https://ezazee.github.io/pt.emas/
+
+
+
+
 Untuk Pekerjaan Web Dibagi beberapa Bagian
 
     1. Navbar = Reza
