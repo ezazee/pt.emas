@@ -174,8 +174,10 @@ h5{
 	font-family: 'oswaldlight';
 	font-size:20px;
 	line-height:30px;
-	font-weight: lighter;
+	font-weight: bold;
 	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-bottom: 15px;
 }
 .heading h4{
 	font-family: Oswald 'sans-serif';
@@ -192,7 +194,7 @@ h5{
 .nvbule-bg{background:#4f575e;}
 .Offgray-bg{background:#ecedef;}
 .clear{clear:both;}
-.ndheight{height:40px;clear:both;}
+.ndheight{height:15vh;clear:both;}
 .addPadding{padding: 20px 0px;}
 .add-Padding{padding-top: 20px;}
 .ndnwdrak{color:#6f6f73;}
@@ -522,7 +524,7 @@ h5{
 .ndservice-item .heading p{color:#fff;font-size:12px;line-height:18px;font-weight:normal;}
 #ndservices{padding:80px 0px 76px;}
 .ndft-line{
-	height:25px;
+	height:210px;
 	width:2px;
 	background: #fff;
 	position: absolute;
@@ -531,7 +533,7 @@ h5{
 	margin-top:-4px;
 }
 .ndft-linetw{
-	height:25px;
+	height:210px;
 	width:2px;
 	background: #fff;
 	position: absolute;
@@ -816,18 +818,24 @@ span.hoverBox .linKed{
 	8. Portfolio Secion End
 ------------------------------------------------------*/
 
-#ndfeature{padding:90px 0px 80px;}
+#ndfeature{padding:200px 0px 80px;}
 #ndfeature .ndheight{height:21px;}
 .gray-bg{background-color:#636a71;} 
 .fetaure-text{
 	float: left;
 	width: 70%;
 	text-align: right;
-	padding-left: 60px;
+
+}
+.marked{
+	padding: 15px 0 0 5px;
+	font-size: 15px;
+	color: #fff;
 }
 .text-ftur{color:#ffffff;}
+.text-ftur>h3{color:#ffffff; font-weight: bold;}
 .fetaure-text p{font-weight:normal;font-size:12px;line-height:18px;color:rgba(255, 255, 255, 0.9);letter-spacing: -0.02em;padding-left: 25px;}
-.fetaure-text2{float: right;width:80%;padding-left:24px;padding-right:25px;}
+.fetaure-text2{float: right;width:80%;padding-left:30px;;}
 .featuretext-two, .featuretext-four{padding-top: 5px;}
 .featuretext_icon{
 	clear: both;
@@ -957,7 +965,7 @@ span.hoverBox .linKed{
 ------------------------------------------------------*/
 
 #owl-OurClient{text-align:center;}
-#ndOurClient{padding: 50px 0px 100px;}
+#ndOurClient{padding: 100px 0px 20px;}
 #ndOurClient2{padding: 54px 0px 44px;}
 #ndOurClient .owl-pagination{display:none!important;}
 .owl-clientimg img{
@@ -4064,4 +4072,13 @@ body { font-family: sans-serif; }
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+
+.button-service{
+	background: #1bbc9b;
+	padding: 20px 0 0 0;
+	font-size: 20px;
+	color: #fff;
+	display: inline-flex;
+	justify-content: center;
 }
