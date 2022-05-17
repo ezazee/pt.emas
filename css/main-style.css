@@ -77,7 +77,7 @@
 }
 body {
 	color:#7e8082;
-	font-family: Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 	font-weight: 400;
 	position:relative;
 	background:#fff;
@@ -109,8 +109,21 @@ p{
 	line-height:18px;
 	font-weight:lighter;
 	margin:0px;
-	font-family:Open Sans, 'sans-serif';
-	color:#7e8082;
+	font-family: 'Gotham';
+	color:#d0d0d0;
+}
+p2{
+	font-size:12px;
+	line-height:18px;
+	font-weight:lighter;
+	margin:0px;
+	font-family: 'Gotham';
+	color:#807f7f;
+    letter-spacing: 1px;
+    line-height: 18px;
+    padding-bottom: 17px;
+    font-weight: normal;
+    padding-right: 0px;
 }
 h1{
 	font-family: 'Gotham';
@@ -176,12 +189,68 @@ h5{
 	padding-bottom: 15px;
 }
 .heading h4{
-	font-family: Gotham 'sans-serif';
+	font-family: 'Gotham';
 	font-size:18px;
 	line-height:30px;
 	font-weight: lighter;
 	text-transform: uppercase;
+
+
 }
+::-moz-selection {
+	background: #4b8ef1;
+	color: #fff !important;
+  }
+  
+  @media (max-width: 991px) {
+	html, body {
+	  overflow-x: hidden;
+	}
+	.mobile-top-fix {
+	  margin-top: 30px;
+	  margin-bottom: 0px;
+	}
+	.mobile-bottom-fix {
+	  margin-bottom: 30px;
+	}
+	.mobile-bottom-fix-big {
+	  margin-bottom: 60px;
+	}
+  }
+  
+  .section-heading {
+	position: relative;
+	z-index: 2;
+  }
+  
+  .section-heading h4 {
+	color: #2a2a2a;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+  }
+  
+  .section-heading h4 em {
+	font-style: normal;
+	color: #ff4c4ceb;
+	;
+  }
+
+  .section-heading h5 {
+	color: #2a2a2a;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+  }
+  
+  .section-heading h5 em {
+	font-style: normal;
+	color: #ff4c4ceb;
+	;
+  }
+  
 .font-color{color:#000000;font: bold;}
 .skype-bg{background:#23272a;}
 .yellow-bg{background:#ffeb01;}
@@ -190,7 +259,7 @@ h5{
 .nvbule-bg{background:#4f575e;}
 .Offgray-bg{background:#ecedef;}
 .clear{clear:both;}
-.ndheight{height:15vh;clear:both;}
+.ndheight{height:5vh;clear:both;}
 .addPadding{padding: 20px 0px;}
 .add-Padding{padding-top: 20px;}
 .ndnwdrak{color:#6f6f73;}
@@ -298,7 +367,7 @@ h5{
 	padding: 53px 22px 23px;
 	text-transform:uppercase;
 }
-.mainNav .navTabs > li .active {color: #ffffff; border-bottom:3px solid #484848;}
+.mainNav .navTabs > li .active {color: #ffffff; border-bottom:3px solid #e02828;}
 .mainNav .navTabs > li .menuArrow {
   display: inline-block;
   line-height: 33px;
@@ -330,7 +399,7 @@ h5{
 	overflow: hidden;
 	font-size: 12px;
 	font-weight:normal;
-	font-family:Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 	height: 43px;
 	line-height:18px;
 	padding:15px;
@@ -483,7 +552,7 @@ h5{
 }
 .responsiveMainNav > ul.navTabs > li .dropDown li a:before {
   content: '-';
-  font-family:Open Sans, 'sans-serif';
+  font-family: 'Gotham';
   font-weight: 700;
   margin-right: 5px;
 }
@@ -500,6 +569,15 @@ h5{
 	height: 100%;
 	z-index: 1;
 }
+.container2 {display: table;width: 100%;}
+.kolom {display: table-cell; padding: 60px;color:white;width: 30%;}
+@media only screen and (max-width: 600px) {
+    .kolom { 
+        display: block;
+        width: 100%;
+    }
+}
+
 .tp-bannertimer{display:none;}
 .tp-leftarrow.default{
 	background: url(../images/left-arrow.png) no-repeat 0!important;
@@ -814,7 +892,7 @@ span.hoverBox .linKed{
 	8. Portfolio Secion End
 ------------------------------------------------------*/
 
-#ndfeature{padding:200px 0px 80px;}
+#ndfeature{padding:90px 0px 80px;}
 #ndfeature .ndheight{height:21px;}
 .gray-bg{background-color:#636a71;} 
 .fetaure-text{
@@ -1109,14 +1187,14 @@ span.hoverBox .linKed{
 .ftblog_head a{
 	font-size:12px;
 	color:#ffffff;
-	font-family:Open San, sans-serif;
+	font-family: 'Gotham';
 	line-height: 10px;
 	font-weight: normal;
 }
 .date-time{
 	color:#d0d0d0;
 	font-size:11px;
-	font-family:Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 	padding-bottom:0px;
 }
 .ftblog_head a:hover{color:#e02828;}
@@ -1304,7 +1382,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 /*-- Latest Post Section End--*/
 
 .nd-abtitletemp h2{
-	color: #ffff;
+	color: #636a71;
 	font-size:30px;
 	font-family:'Gotham';
 	font-weight: bolder;
@@ -1312,8 +1390,8 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	padding-bottom: 31px;
 }
 .nd-abtitletemp p{
-	color:rgba(255, 255, 255, 0.8);
-	font-size:12px;
+	color:#636a71;
+	font-size:16px;
 	letter-spacing: 1px;
 	line-height:18px;
 	padding-bottom: 17px;
@@ -1322,7 +1400,6 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 }
 .ndabreadmr{margin-top: 17px;}
 .abprallax-bg{
-	background:url(../images/background/ab-prallax.jpg) no-repeat fixed;
 	background-size:cover;
 	background-attachment:fixed;
 	padding-top: 4px;
@@ -1330,8 +1407,8 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 .button-ab{
 	padding:10px 25px;
 	border:2px solid #acadaf;
-	color:#fff;
-	font-size:12px;
+	color:#636a71;
+	font-size:16px;
 	font-family:'Gotham';
 	text-transform: uppercase;
 }
@@ -1435,7 +1512,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	font-size:14px; 
 	line-height:24px;
 	color:#ffffff;
-	font-family:Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 	font-style: italic;
 	font-weight: normal;
 }
@@ -1443,7 +1520,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	font-size:14px; 
 	line-height:18px;
 	color:#ffffff;
-	font-family:Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 	font-style: italic;
 	font-weight: 700;
 	float: right;
@@ -1452,7 +1529,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	font-size:14px; 
 	line-height:18px;
 	color:#b6babf;
-	font-family:Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 	font-weight:normal;
 }
 .ndtesttitle{padding-left:10px;}
@@ -1504,16 +1581,16 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	background-repeat: no-repeat;
 }
 .twbody-content{padding:30px 0px;}
-.twbody-content p{color:black;font-size:12px;line-height:18px;font-family:Open Sans, 'sans-serif';}
+.twbody-content p{color:black;font-size:12px;line-height:18px;font-family: 'Gotham';}
 .twtitle{
 	color:#7e8082;
 	font-size:12px;
 	line-height:18px;
-	font-family:Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 	text-transform:uppercase;
 	font-weight:500;
 }
-.twdate{color:#7e8082;font-size:12px;line-height:18px;font-family:Open Sans, 'sans-serif';float:right;}
+.twdate{color:#7e8082;font-size:12px;line-height:18px;font-family: 'Gotham';float:right;}
 /*-- twitter end --*/
 
 .offgray-bg{background:#ebeced;}
@@ -1681,9 +1758,9 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 
 .testimonials3 .heading  h2{color:#7e8082;padding-bottom:30px;}
 .testItem3{width: 88%;float: right;}
-.testItem3 h3{font-size:12px; line-height:18px; font-family:Open Sans, 'sans-serif';font-weight:400;}
-.testItem3 p{font-size:12px; color:#7e8082;line-height:18px; font-family:Open Sans, 'sans-serif';font-weight:600;font-style: italic;float: right;}
-.testItem3 .company-name{font-size:12px; color:#b6babf;line-height:18px; font-family:Open Sans, 'sans-serif';font-weight:500;}
+.testItem3 h3{font-size:12px; line-height:18px; font-family: 'Gotham';font-weight:400;}
+.testItem3 p{font-size:12px; color:#7e8082;line-height:18px; font-family: 'Gotham';font-weight:600;font-style: italic;float: right;}
+.testItem3 .company-name{font-size:12px; color:#b6babf;line-height:18px; font-family: 'Gotham';font-weight:500;}
 .ndtestItem3 .quotesIconblack{background-size:35px;margin-top: 5px;}
 .ndtestItem3 .ndfact .ndquoteIcon{width:35px;height:35px;}
 #owl-testimonials3 .owl-buttons {
@@ -1806,7 +1883,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	font-size:11px;
 	line-height:18px;
 	color:#9fa2a6;
-	font-family:Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 	text-transform:uppercase;
 	font-weight:normal;
 }
@@ -1974,7 +2051,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
   margin-top:18px;
   color: #9c9d9f;
   font-size:12px;
-  font-family:Open Sans, 'sans-serif';
+  font-family: 'Gotham';
   font-weight:normal;
   padding-left: 28px;
   line-height:18px;
@@ -2060,7 +2137,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
   margin-top:18px;
   color: #9c9d9f;
   font-size:12px;
-  font-family:Open Sans, 'sans-serif';
+  font-family: 'Gotham';
   font-weight:normal;
   padding-left: 28px;
   line-height:18px;
@@ -2190,7 +2267,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 ------------------------------------------------------*/
 .ndrecprohg{margin-top:6px;}
 .port-title h4{color:#6f6f73;font-weight:lighter;font-family: 'oswaldlight';margin-top:13px;}
-.port-title p{color:#7e8082;font-weight:lighter;font-family:Open Sans, 'sans-serif';font-size:11px;text-transform:uppercase;line-height:1;margin-top:7px;}
+.port-title p{color:#7e8082;font-weight:lighter;font-family: 'Gotham';font-size:11px;text-transform:uppercase;line-height:1;margin-top:7px;}
 
 .pagination li{padding:10px;}
 .pagination li a, .pagination li  span{
@@ -2425,7 +2502,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	padding:12px;
 	color:#7e8082;
 	font-size:12px;
-	font-family:Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 }
 .ndtbl-pricing .item .tbl-footer .btn-default{font-size:14px;background:#e02828;color:#fff;font-family:'oswaldlight';text-transform:uppercase;}
 .ndtbl-pricing .item.tbl-recommend{
@@ -2601,7 +2678,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	padding: 12px;
 	color: #7e8082;
 	font-size: 12px;
-	font-family: Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 	border-bottom: 1px solid #e4e5e4;
 }
 .ndtbl-pricingthree .item.tbl-recommend .tbl-lists li {
@@ -2609,7 +2686,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	padding: 12px;
 	color: #7e8082;
 	font-size: 12px;
-	font-family: Open Sans, 'sans-serif';
+	font-family: 'Gotham';
 	border-bottom:1px solid #e4e5e4;
 }
 .ndtbl-pricingthree .item .tbl-footer {
@@ -4084,3 +4161,4 @@ body { font-family: sans-serif; }
 .about_image img{
 	margin: 10px 0 0 10px;
 }
+
