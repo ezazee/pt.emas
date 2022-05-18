@@ -134,7 +134,7 @@ h1{
 }
 h2{
 	font-family: 'Gotham';
-	font-size:72px;
+	font-size:50px;
 	color:#ffffff;
 	line-height:57px;
 	font-weight:Bold;
@@ -1130,14 +1130,8 @@ span.hoverBox .linKed{
 	14. GoogleMap Section End
 ------------------------------------------------------*/
 
-#footer ul, ol{margin:0px;}
 .ftmin-height{height:15px;clear: both;}
-.footerbg-right{background-color: #636a71;}
 .ndft-no-padding{padding:0px;}
-.footer-left{float:right;width: 62.5%;padding-top: 30px;}
-.footer-right{padding-top: 30px;width:73.5%;float:left;background-color: #636a71;padding-left: 20px;}
-.fotter-nopadd{padding:0px;}
-.footer-bg{background-color:#23272a;}
 .texth1{
 	font-size:48px;
 	color:#fdfdfd;
@@ -1234,26 +1228,6 @@ span.hoverBox .linKed{
 /*----------------------------------------------------
 	15. Footer Section End
 ------------------------------------------------------*/
-
-.footer-bottom {padding-top:45px;padding-bottom:35px;}
-.footer-nav li{
-	list-style:none;
-	display: inline-block;
-	padding-right:10px;
-}
-.footer-nav li a{
-	color:#a1a1a1;
-	font-size:14px;
-	font-family:'oswaldlight';
-	font-weight:normal;
-	text-decoration: none;
-	text-transform:uppercase;
-}
-.footer-nav li a:hover{color:#e02828;}
-/*-- Footer leftSide End--*/
-
-.copywrite{	color:#a1a1a1;font-size:12px; line-height:18px;font-weight:lighter;}
-.dsauthor{color:#d0d0d0;}
 
 /*----------------------------------------------------
 	16. Footer Bottom Section End
@@ -2504,13 +2478,6 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	font-size:12px;
 	font-family: 'Gotham';
 }
-.ndtbl-pricing .item .tbl-footer .btn-default{font-size:14px;background:#e02828;color:#fff;font-family:'oswaldlight';text-transform:uppercase;}
-.ndtbl-pricing .item.tbl-recommend{
-	background-color:#e02828;
-	border-bottom:1px solid #80c9fd;
-	padding:20px 12px;
-	color:#fff;
-}
 .ndtbl-pricing .item.tbl-recommend .tbl-header {
 	background-color:transparent;
 	padding:20px 12px;
@@ -2524,7 +2491,6 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	padding:12px;
 	color:#7e8082;
 }
-.ndtbl-pricing .item.tbl-recommend  .tbl-footer  .btn-default{border:1px solid #e7e8ea; }
 
 .ndtbl-pricingone .item:hover{background-color: #e02828;color: #fff;border-bottom: 1px solid #80c9fd;cursor:pointer;}
 .ndtbl-pricingone .item:hover .tbl-header{background-color: #e02828;color: #fff;cursor:pointer;}
@@ -2573,33 +2539,9 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	padding-bottom: 32px;
 	margin:0px;
 }
-.ndtbl-pricingtwo .item .tbl-lists{padding-left:4.5px; padding-right:4.5px;}
-.ndtbl-pricingtwo .item .tbl-footer{background-color: #636a71;padding: 29px 0px;}
-.ndtbl-pricingtwo .tbl-recommend .tbl-footer{
-	background-color: #e02828;
-	padding: 29px 0px 44px 0px;
-}
-.ndtbl-pricingtwo .item .tbl-footer .btn-default{
-	font-size: 18px;
-	background: transparent;
-	color: #fff;
-	line-height:18px;
-	font-family: 'oswaldlight';
-	text-transform: uppercase;
-	border: transparent;
-}
-.ndtbl-pricingtwo .tbl-recommend .tbl-footer .btn-default{
-	font-size: 18px;
-	color: #fff;
-	line-height:18px;
-	font-family: 'oswaldlight';
-	text-transform: uppercase;
-	border: transparent;
-	background: #e02828;border: transparent;
-}
+
 .ndtbl-pricingtwo .item:hover{background:#d8dadd;color:#fff;cursor:pointer;}
 .ndtbl-pricingtwo .item:hover .tbl-lists li{color:#7e8082;}
-.ndtbl-pricingtwo .item:hover .tbl-footer{background-color: #e02828;padding: 29px 0px 44px 0px;cursor:pointer;}
 .ndtbl-pricingtwo .item:hover .tbl-price{background-color: #636a71;padding-top: 30px;padding-bottom: 32px;cursor:pointer;}
 .ndtbl-pricingtwo .item:hover .tbl-header{padding-bottom: 25px!important;background: #e02828;padding: 20px 12px;cursor:pointer;}
 .ndtbl-pricingtwo .col-sm-3:hover{margin-top: -15px;cursor:pointer;}
@@ -2689,27 +2631,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	font-family: 'Gotham';
 	border-bottom:1px solid #e4e5e4;
 }
-.ndtbl-pricingthree .item .tbl-footer {
-	padding:18px 0px;
-}
-.ndtbl-pricingthree .item .tbl-footer .btn-default {
-	font-size: 14px;
-	background-color: #535961;
-	color: #fafafa;
-	font-family: 'oswaldlight';
-	text-transform: uppercase;
-}
-.ndtbl-pricingthree .tbl-recommend .tbl-footer .btn-default {
-	font-size: 14px;
-	background-color: #e02828;
-	color: #e7f3f5;
-	font-family: 'oswaldlight';
-	text-transform: uppercase;
-}
-.ndtbl-pricingthree .item:hover .tbl-header{ cursor:pointer;background-color: #e02828;padding-top: 32px;padding-bottom: 32px;color: #ffffff;}
-.ndtbl-pricingthree .item:hover  .tbl-footer  .btn-default{color:#fff;background-color:#e02828;}
-/*-- Price Table Three End --*/
-.ndproelecompr{margin-bottom: 29px;}
+
 /*----------------------------------------------------
 	32. PricingTable Page End
 ------------------------------------------------------*/
@@ -3873,7 +3795,6 @@ input[type="submit"]:hover > i{
 .headerStyle2 .header-search-a i{color:#fff;}
 .header2-headerbg img{position: absolute;z-index: 99;width: 100%;}
 .ndheaderv-1 .social_sharenadea li:hover {background: #ffeb01;}
-.ndheaderv-1 .footer-nav li a:hover {color: #ffeb01;}
 .ndheaderv-1 .font-color{color: #ffeb01;}
 /*----------------------------------------------------
 	39. Header Version 1 End
@@ -3966,7 +3887,6 @@ input[type="submit"]:hover > i{
 	transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
 }
 .ndheaderv-2 .social_sharenadea li:hover {background: #ffeb01;}
-.ndheaderv-2 .footer-nav li a:hover {color: #ffeb01;}
 .ndheaderv-2 .font-color{color: #ffeb01;}
 
 /*----------------------------------------------------
@@ -4037,7 +3957,6 @@ input[type="submit"]:hover > i{
 .ndheaderv-4 .header-search{margin-top:28px;}
 .ndheaderv-4 .header.fixedHeader .header-search{margin-top: 15px;}
 .ndheaderv-4 .social_sharenadea li:hover {background: #ffeb01;}
-.ndheaderv-4 .footer-nav li a:hover {color: #ffeb01;}
 .ndheaderv-4 .font-color{color: #ffeb01;}
 
 /*----------------------------------------------------
@@ -4059,7 +3978,6 @@ input[type="submit"]:hover > i{
 .headerStyle6 .mainNav .navTabs > li .dropDown li .active{color:#fff;}
 .headerStyle6 .mainNav .navTabs > li .dropDown{background:#ffeb01;}
 .ndheaderv-5 .social_sharenadea li:hover {background: #ffeb01;}
-.ndheaderv-5 .footer-nav li a:hover {color: #ffeb01;}
 .ndheaderv-5 .font-color{color: #ffeb01;}
 /*----------------------------------------------------
 	43. Header Version 5 End
