@@ -233,9 +233,22 @@ h5{
   
   .section-heading h4 em {
 	font-style: normal;
-	color: #ff4c4ceb;
+	color: #f0ae00;
 	;
   }
+  .section-heading h4 a {
+    color: #fd7304;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+    text-shadow: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+}
+  
 
   .section-heading h5 {
 	color: #2a2a2a;
@@ -247,9 +260,47 @@ h5{
   
   .section-heading h5 em {
 	font-style: normal;
-	color: #ff4c4ceb;
+	color: #f0ae00;
 	;
   }
+  .section-heading h5 a {
+    color: #fd7304;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+    text-shadow: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+}
+
+.section-heading h6 {
+	color: #2a2a2a;
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+  }
+  
+  .section-heading h6 em {
+	font-style: normal;
+	color: #f0ae00;
+	;
+  }
+  .section-heading h6 a {
+    color: #fd7304;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+    text-shadow: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+}
   
 .font-color{color:#000000;font: bold;}
 .skype-bg{background:#23272a;}
@@ -3311,6 +3362,7 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 	background:#fff;
 	border:2px solid #e7e8ea;
 	color:#7e8082;
+
 }
 .btn-gray{
 	background:#d7d9dc;
@@ -4079,4 +4131,5 @@ body { font-family: sans-serif; }
 .about_image img{
 	margin: 10px 0 0 10px;
 }
+
 
