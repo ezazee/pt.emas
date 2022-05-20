@@ -105,11 +105,11 @@ a:hover {
 a,
 a:focus,
 a:active {
-    color: #E85D04;
+    color: #B10101;
 }
 
 a:hover {
-    color: #E85D04;
+    color: #B10101;
 }
 
 a[href*='tel'],
